@@ -53,7 +53,7 @@ const Section_two = () => {
           <InfiniteScroll direction="right" reverse={true} />
         </motion.div>
       </div>
-      <motion.div variants={bottomfadein(1.5)} initial='hidden' whileInView='visible' className="border-[2px] mx-auto flex flex-col gap-2 items-center border-[#9595de] max-w-[500px]  text-center  p-3 rounded-md mt-6">
+      <motion.div variants={leftfadein(1.5)} initial='hidden' whileInView='visible' className="border-[2px] mx-auto flex flex-col gap-2 items-center border-[#9595de] max-w-[500px]  text-center  p-3 rounded-md mt-6">
       <p className="font-subhead text-[20px]">Want to Know More</p>
       <p className="font-bigstyle text-[14px]">Interested in learning more about me? Download my resume below to explore my skills and experience.</p>
       <motion.button
