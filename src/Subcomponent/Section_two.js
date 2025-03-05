@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { skills } from "../Assets/Skills/skills"; // Ensure correct path
-import { bottomfadein, leftfadein, rightfadein } from "../animation";
+import { bottomfadein, findme, leftfadein, rightfadein } from "../animation";
 
 const InfiniteScroll = ({ direction, reverse }) => {
   // Reverse skills list if needed
@@ -53,7 +53,7 @@ const Section_two = () => {
         </motion.div>
 
         {/* "My Skills" Section */}
-        <motion.div variants={rightfadein(1)} initial='hidden' whileInView='visible' className="flex z-1  tab:py-1 justify-center items-center tab:max-w-full flex-col gap-4  max-w-[500px] sm:w-[320px] border-[2px] md:p-5  border-[#9595de] p-[40px] sm:px-2 sm:p-0 rounded-md">
+        <motion.div variants={findme(1)} initial='hidden' whileInView='visible' className="flex z-1  tab:py-1 justify-center items-center tab:max-w-full flex-col gap-4  max-w-[500px] sm:w-[320px] border-[2px] md:p-5  border-[#9595de] p-[40px] sm:px-2 sm:p-0 rounded-md">
           <p className="font-subhead text-[23px] sm:text-[18px]">My Skills</p>
           <p className="font-bigstyle text-justify text-[16px] sm:text-[12px] ">Here are the technologies and tools I work with! Continuously learning and evolving to build better solutions.</p>
           {/* Scrolling container 1 - Left Scroll (Normal Order) */}
