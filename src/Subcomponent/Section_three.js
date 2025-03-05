@@ -58,7 +58,7 @@ const Section_three = () => {
       </div>
 
       {/* Education and Experience Selection */}
-      <motion.div variants={bottomfadein(1)} className='max-w-[1240px] py-5 mx-auto border-[2px] border-[#9595de] rounded-md mt-[25px] flex flex-col justify-center items-center'>
+      <motion.div variants={bottomfadein(1)} initial='hidden' whileInView='visible' className='max-w-[1240px] py-5 mx-auto border-[2px] border-[#9595de] rounded-md mt-[25px] flex flex-col justify-center items-center'>
         <div className='flex  p-2 rounded-full border max-w-[300px] w-full text-center justify-center'>
           <p 
             onClick={() => setSelection('Education')} 
