@@ -35,7 +35,7 @@ const Section_four = () => {
   return (
     <div className='text-white font-bold flex flex-col items-center p-2'>
       <h1 className='text-center pt-2 md:pt-0 text-[30px]'>CONTACT ME</h1>
-      <motion.div variants={findme(0.8)} initial='hidden' whileInView='visible' className='border-[2px] border-[#9595de] max-w-[700px] w-full p-5 rounded-md mt-6'>
+      <motion.div variants={findme(0.8)} initial='hidden' whileInView='visible' className='mx-2 border-[2px] border-[#9595de] max-w-[700px] w-full p-5 rounded-md mt-6'>
        <form className='flex flex-col gap-3' onSubmit={onSubmit}>
         <div className='flex flex-col gap-2'>
           <label htmlFor="name" className='font-bigstyle '>Full Name</label>
