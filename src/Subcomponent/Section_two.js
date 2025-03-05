@@ -32,10 +32,10 @@ const handleDownload = () => {
 };
 const Section_two = () => {
   return (
-    <div className="text-white font-bold">
+    <div className="text-white font-bold mx-2">
       <h1 className="text-center pt-3 md:pt-0 text-[30px]">ABOUT ME</h1>
       <div className="flex items-center justify-center md:pt-1 tab:pt-1 pt-10 gap-6  sm:gap-2 flex-wrap">
-        <motion.div variants={leftfadein(1)}  initial='hidden' whileInView='visible' className="flex tab:p-5   tab:max-w-full justify-center items-center flex-col gap-4  max-w-[500px] border-[2px] border-[#9595de] p-[20px]  sm:p-[5px] sm:px-6 rounded-md mx-2">
+        <motion.div variants={leftfadein(1)}  initial='hidden' whileInView='visible' className="flex tab:p-5   tab:max-w-full justify-center items-center flex-col gap-4  max-w-[500px] border-[2px] border-[#9595de] p-[20px]  sm:p-[5px] sm:px-6 rounded-md">
           <p className="font-subhead text-[23px]">What I Am</p>
           <p className="text-justify font-bigstyle text-[18px]">
             I am a passionate and detail-oriented Full Stack Developer specializing in the MERN stack.
@@ -46,14 +46,14 @@ const Section_two = () => {
             high-quality code.
           </p>
         </motion.div>
-        <motion.div variants={findme(1)} initial='hidden' whileInView='visible' className=" mx-2 flex z-1  tab:py-1 justify-center items-center tab:max-w-full flex-col gap-4  max-w-[500px] sm:w-[320px] border-[2px] md:p-5  border-[#9595de] p-[40px] sm:px-2 sm:p-0 rounded-md">
+        <motion.div variants={findme(1)} initial='hidden' whileInView='visible' className="flex z-1  tab:py-1 justify-center items-center tab:max-w-full flex-col gap-4  max-w-[500px] sm:w-[320px] border-[2px] md:p-5  border-[#9595de] p-[40px] sm:px-2 sm:p-0 rounded-md">
           <p className="font-subhead text-[23px] sm:text-[18px]">My Skills</p>
           <p className="font-bigstyle text-justify text-[16px] sm:text-[12px] ">Here are the technologies and tools I work with! Continuously learning and evolving to build better solutions.</p>
           <InfiniteScroll direction="left" reverse={false} />
           <InfiniteScroll direction="right" reverse={true} />
         </motion.div>
       </div>
-      <motion.div variants={bottomfadein(1.5)} initial='hidden' whileInView='visible' className=" mx-2 border-[2px] flex flex-col gap-2 items-center border-[#9595de] max-w-[500px] mx-auto text-center  p-3 rounded-md mt-6">
+      <motion.div variants={bottomfadein(1.5)} initial='hidden' whileInView='visible' className="border-[2px] mx-auto flex flex-col gap-2 items-center border-[#9595de] max-w-[500px]  text-center  p-3 rounded-md mt-6">
       <p className="font-subhead text-[20px]">Want to Know More</p>
       <p className="font-bigstyle text-[14px]">Interested in learning more about me? Download my resume below to explore my skills and experience.</p>
       <motion.button

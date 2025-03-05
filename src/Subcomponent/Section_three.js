@@ -11,10 +11,10 @@ const Section_three = () => {
   const [selection, setSelection] = useState('Education');
 
   return (
-    <div className='text-white font-bold'>
+    <div className='text-white font-bold mx-2'>
       <h1 className='text-center pt-3 md:pt-0 text-[30px]'>MY WORKS</h1>
       <div className='flex items-center justify-center pt-5 md:flex-col gap-5 px-2'>
-        <motion.div variants={findme(0.5)} initial='hidden' whileInView='visible' whileHover='hover' className='mx-2 max-w-[400px] w-full border-[2px] border-[#9595de] rounded-md flex flex-col items-center p-4'>
+        <motion.div variants={findme(0.5)} initial='hidden' whileInView='visible' whileHover='hover' className='max-w-[400px] w-full border-[2px] border-[#9595de] rounded-md flex flex-col items-center p-4'>
           <p className='text-center font-bigstyle text-[20px]'>Personal Portfolio</p>
           <img src={port} alt="portfolio" className='max-w-[400px] w-full' />
           <div className="mt-3 w-full px-4 ">
@@ -26,7 +26,7 @@ const Section_three = () => {
           </div>
         </motion.div>
          
-        <motion.div variants={findme(0.7)} initial='hidden' whileInView='visible' whileHover='hover' className='mx-2 max-w-[400px] w-full border-[2px] pb-0 border-[#9595de] rounded-md flex flex-col items-center p-1'>
+        <motion.div variants={findme(0.7)} initial='hidden' whileInView='visible' whileHover='hover' className='max-w-[400px] w-full border-[2px] pb-0 border-[#9595de] rounded-md flex flex-col items-center p-1'>
           <p className='text-center font-bigstyle text-[20px]'>Nike-Clone</p>
           <img src={nike} alt="portfolio" className='max-w-[400px] w-full' />
           <div className="mt-3 w-full px-1">
@@ -41,7 +41,7 @@ const Section_three = () => {
           </div>
         </motion.div>
 
-        <motion.div variants={findme(0.9)} initial='hidden' whileInView='visible' whileHover='hover' className='mx-2 max-w-[400px] w-full border-[2px] border-[#9595de] rounded-md flex flex-col items-center p-1'>
+        <motion.div variants={findme(0.9)} initial='hidden' whileInView='visible' whileHover='hover' className='max-w-[400px] w-full border-[2px] border-[#9595de] rounded-md flex flex-col items-center p-1'>
           <p className='text-center font-bigstyle text-[20px]'>Blog Website</p>
           <img src={blog} alt="portfolio" className='max-w-[400px] w-full' />
           <div className="mt-3 w-full px-4">
@@ -56,7 +56,7 @@ const Section_three = () => {
           </div>
         </motion.div>
       </div>
-      <motion.div variants={bottomfadein(1)} initial='hidden' whileInView='visible' className='mx-2 max-w-[1240px] py-5 mx-auto border-[2px] border-[#9595de] rounded-md mt-[25px] flex flex-col justify-center items-center'>
+      <motion.div variants={bottomfadein(1)} initial='hidden' whileInView='visible' className=' max-w-[1240px] py-5 mx-auto border-[2px] border-[#9595de] rounded-md mt-[25px] flex flex-col justify-center items-center'>
         <div className='flex  p-2 rounded-full border max-w-[300px] w-full text-center justify-center'>
           <p 
             onClick={() => setSelection('Education')} 
