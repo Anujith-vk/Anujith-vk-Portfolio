@@ -29,10 +29,6 @@ const Section_one = () => {
     }, 85);
     return () => clearInterval(interval);
   }, [isDeleting, text]);
-
-  const HandleGit=()=>{
-    
-  }
   return (
     <div className="flex w-full h-full">
       <div className='flex gap-[100px] md:flex-col md:gap-2 sm:gap-1'>
@@ -47,10 +43,10 @@ const Section_one = () => {
           <motion.div variants={findme(1)} initial='hidden' whileInView='visible' className='max-w-[500px] mt-3 w-full flex flex-col justify-center'>
             <p className='text-center font-subhead text-[22px]  text-transparent bg-clip-text bg-gradient-to-r from-[#ff6347] to-[#00bfff] '>FIND ME ON</p>
             <div className=" flex gap-7 justify-center mt-2 ">
-              <a href="https://github.com/Anujith-vk" target='_blank'>
+              <a href="https://github.com/Anujith-vk" target='_blank' rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} spin style={{ color: "#ffffff", fontSize: "30px" }} />
               </a>
-              <a href="https://www.linkedin.com/in/anujithvk" target="_blank">
+              <a href="https://www.linkedin.com/in/anujithvk" target="_blank " rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} beat style={{ color: "#ffffff", fontSize: "30px" }} />
               </a>
               </div>

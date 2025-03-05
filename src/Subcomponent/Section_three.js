@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import port from '../Assets/port.png';
 import nike from '../Assets/nike.png';
 import blog from '../Assets/Screenshot 2025-03-04 191347.png';
-import { bottomfadein, findme, leftfadein } from '../animation';
+import { bottomfadein, findme} from '../animation';
 
 const Section_three = () => {
   const [selection, setSelection] = useState('Education');
@@ -35,7 +35,7 @@ const Section_three = () => {
               <li>Implemented features such as Add-to-Cart, Product Purchase, Product Management, and User Authentication</li>
               <li>Successfully deployed on Render</li>
             </ul>
-            <a href="https://nike-clone-1.onrender.com" target='_blank'>
+            <a href="https://nike-clone-1.onrender.com" target='_blank' rel="noreferrer">
               <FontAwesomeIcon icon={faEye} bounce className='ml-3 pt-2 w-7 h-6'></FontAwesomeIcon>
             </a>
           </div>
@@ -50,14 +50,12 @@ const Section_three = () => {
               <li>Implemented key features including blog creation, editing, user authentication, viewing, and deletion.</li>
               <li>Successfully deployed on Render.</li>
             </ul>
-            <a href="https://blog-website-frontend-p34u.onrender.com" target='_blank'>
+            <a href="https://blog-website-frontend-p34u.onrender.com" target='_blank' rel="noreferrer">
               <FontAwesomeIcon icon={faEye} bounce className='ml-3 pt-2 w-7 h-6'></FontAwesomeIcon>
             </a>
           </div>
         </motion.div>
       </div>
-
-      {/* Education and Experience Selection */}
       <motion.div variants={bottomfadein(1)} initial='hidden' whileInView='visible' className='max-w-[1240px] py-5 mx-auto border-[2px] border-[#9595de] rounded-md mt-[25px] flex flex-col justify-center items-center'>
         <div className='flex  p-2 rounded-full border max-w-[300px] w-full text-center justify-center'>
           <p 

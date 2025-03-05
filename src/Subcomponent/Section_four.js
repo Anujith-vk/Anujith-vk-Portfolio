@@ -29,6 +29,7 @@ const Section_four = () => {
         text: "Message Sent Successfull!y",
         icon: "success"
       });
+      event.target.reset()
     }
   };
   return (
