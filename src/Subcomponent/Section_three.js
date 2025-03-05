@@ -45,13 +45,13 @@ const Section_three = () => {
           <p className='text-center font-bigstyle text-[20px]'>Blog Website</p>
           <img src={blog} alt="portfolio" className='max-w-[400px] w-full' />
           <div className="mt-3 w-full px-4">
-            <ul className="list-disc text-[16px] font-bigstyle text-[#b5afaf9d] pl-0">
+            <ul className="list-disc text-[16px] font-bigstyle text-[#b5afaf9d] pl-2">
               <li>Developed a fully functional blog website.</li>
               <li>Implemented key features including blog creation, editing, user authentication, viewing, and deletion.</li>
               <li>Successfully deployed on Render.</li>
             </ul>
             <a href="https://blog-website-frontend-p34u.onrender.com" target='_blank' rel="noreferrer">
-              <FontAwesomeIcon icon={faEye} bounce className='ml-3 pt-2 w-7 h-6'></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faEye} bounce className=' pt-2 w-7 h-6'></FontAwesomeIcon>
             </a>
           </div>
         </motion.div>
